@@ -1,0 +1,47 @@
+/* ============ LA VELLA DECOR – DESIGN TOKENS ============ */
+:root {
+  /* BRAND (gold on charcoal) */
+  --gold-500: #D7BE82;
+  --gold-600: #C8A86A;   /* primary */
+  --gold-700: #B8914A;   /* pressed/strong */
+
+  --charcoal-900: #1C1B1A;  /* header, text on dark */
+  --charcoal-800: #242321;  /* body text on light */
+
+  /* NEUTRALS (warm, not blue-gray) */
+  --ivory-50: #F5F1E8;   /* page background */
+  --linen-100: #ECE6DA;  /* alt sections / subtle rows */
+  --taupe-200: #D7D1C6;  /* borders/hairlines */
+  --ash-400: #8E8A82;    /* muted/meta text */
+
+  /* Gentle accent for links/filters (pairs with gold) */
+  --teal-600: #3C4A4B;
+  --teal-400: #4F6061;
+
+  /* Semantic aliases (light theme) */
+  --bg: var(--ivory-50);
+  --section: var(--linen-100);
+  --surface: #FFFFFF;           /* cards */
+  --surface-alt: #F3EEE4;       /* image wells */
+  --text: var(--charcoal-800);
+  --text-muted: var(--ash-400);
+  --heading: var(--charcoal-900);
+  --brand: var(--gold-600);
+  --brand-hover: var(--gold-700);
+  --border: var(--taupe-200);
+  --link: var(--teal-600);
+  --link-hover: var(--teal-400);
+
+  /* Typography */
+  --font-display: "Playfair Display", "Times New Roman", ui-serif, Georgia, serif;
+  --font-sans: "Inter", "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui, sans-serif;
+
+  /* Ramps */
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 6px 20px rgba(28, 27, 26, .10), 0 1px 2px rgba(28, 27, 26, .06);
+  --shadow-lg: 0 12px 32px rgba(28, 27, 26, .14);
+
+  /* Gold "metal" (use sparingly on tiny accents/icons) */
+  --gold-gradient: linear-gradient(180deg, #E6D19A 0%, #C8A86A 45%, #B8914A 100%);
+}
